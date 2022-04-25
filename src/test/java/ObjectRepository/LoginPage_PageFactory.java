@@ -28,7 +28,7 @@ public class LoginPage_PageFactory {
 	{
 		username.sendKeys(ID);
 		password.sendKeys(PW);
-	                                                                                                          //Assert.assertTrue(false);   //Import Assert (org.testng)
+	   //Assert.assertTrue(false);   //Import Assert (org.testng) // this code is for assert program
 		login.click();
 	}
 

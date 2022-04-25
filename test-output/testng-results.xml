@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-17T23:28:28 EDT" name="Default suite" finished-at="2022-04-17T23:29:11 EDT" duration-ms="43222">
+  <suite started-at="2022-04-25T15:34:27 EDT" name="Default suite" finished-at="2022-04-25T15:34:55 EDT" duration-ms="28172">
     <groups>
     </groups>
-    <test started-at="2022-04-17T23:28:28 EDT" name="Default test" finished-at="2022-04-17T23:29:11 EDT" duration-ms="43222">
-      <class name="LoginTest.MainFM.TestCase_LogInOrangeHRM">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginTest.MainFM.TestCase_LogInOrangeHRM@710636b0]" started-at="2022-04-17T23:28:36 EDT" name="setUp" finished-at="2022-04-17T23:28:49 EDT" duration-ms="12885" status="PASS">
+    <test started-at="2022-04-25T15:34:27 EDT" name="Default test" finished-at="2022-04-25T15:34:55 EDT" duration-ms="28172">
+      <class name="LoginTest.MainFM.ErrorFix">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0]" started-at="2022-04-25T15:34:28 EDT" name="setUp" finished-at="2022-04-25T15:34:36 EDT" duration-ms="7888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login_TestCase(java.lang.String,java.lang.String)[pri:0, instance:LoginTest.MainFM.TestCase_LogInOrangeHRM@710636b0]" started-at="2022-04-17T23:28:49 EDT" name="login_TestCase" data-provider="getdata" finished-at="2022-04-17T23:28:51 EDT" duration-ms="2101" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0]" started-at="2022-04-25T15:34:36 EDT" name="login" data-provider="getdata" finished-at="2022-04-25T15:34:38 EDT" duration-ms="2118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,60 +26,81 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_TestCase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest.MainFM.TestCase_LogInOrangeHRM@710636b0]" started-at="2022-04-17T23:28:51 EDT" name="tearDown" finished-at="2022-04-17T23:28:52 EDT" duration-ms="735" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginTest.MainFM.TestCase_LogInOrangeHRM@710636b0]" started-at="2022-04-17T23:28:52 EDT" name="setUp" finished-at="2022-04-17T23:29:01 EDT" duration-ms="9101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="login_TestCase(java.lang.String,java.lang.String)[pri:0, instance:LoginTest.MainFM.TestCase_LogInOrangeHRM@710636b0]" started-at="2022-04-17T23:29:01 EDT" name="login_TestCase" data-provider="getdata" finished-at="2022-04-17T23:29:02 EDT" duration-ms="1123" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0]" started-at="2022-04-25T15:34:38 EDT" name="tearDown" finished-at="2022-04-25T15:34:39 EDT" duration-ms="405" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[shan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[shan25]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=ErrorFix.login(java.lang.String,java.lang.String)[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_TestCase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest.MainFM.TestCase_LogInOrangeHRM@710636b0]" started-at="2022-04-17T23:29:02 EDT" name="tearDown" finished-at="2022-04-17T23:29:02 EDT" duration-ms="168" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginTest.MainFM.TestCase_LogInOrangeHRM@710636b0]" started-at="2022-04-17T23:29:02 EDT" name="setUp" finished-at="2022-04-17T23:29:11 EDT" duration-ms="8437" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0]" started-at="2022-04-25T15:34:39 EDT" name="setUp" finished-at="2022-04-25T15:34:46 EDT" duration-ms="6669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login_TestCase(java.lang.String,java.lang.String)[pri:0, instance:LoginTest.MainFM.TestCase_LogInOrangeHRM@710636b0]" started-at="2022-04-17T23:29:11 EDT" name="login_TestCase" data-provider="getdata" finished-at="2022-04-17T23:29:11 EDT" duration-ms="250" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0]" started-at="2022-04-25T15:34:46 EDT" name="login" data-provider="getdata" finished-at="2022-04-25T15:34:47 EDT" duration-ms="1229" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[]]>
+                <![CDATA[shanthi]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[]]>
+                <![CDATA[shanthi123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_TestCase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest.MainFM.TestCase_LogInOrangeHRM@710636b0]" started-at="2022-04-17T23:29:11 EDT" name="tearDown" finished-at="2022-04-17T23:29:11 EDT" duration-ms="203" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0]" started-at="2022-04-25T15:34:47 EDT" name="tearDown" finished-at="2022-04-25T15:34:47 EDT" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=ErrorFix.login(java.lang.String,java.lang.String)[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- LoginTest.MainFM.TestCase_LogInOrangeHRM -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0]" started-at="2022-04-25T15:34:47 EDT" name="setUp" finished-at="2022-04-25T15:34:54 EDT" duration-ms="6397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0]" started-at="2022-04-25T15:34:54 EDT" name="login" data-provider="getdata" finished-at="2022-04-25T15:34:55 EDT" duration-ms="1178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0]" started-at="2022-04-25T15:34:55 EDT" name="tearDown" finished-at="2022-04-25T15:34:55 EDT" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=ErrorFix.login(java.lang.String,java.lang.String)[pri:0, instance:LoginTest.MainFM.ErrorFix@710636b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginTest.MainFM.ErrorFix -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
